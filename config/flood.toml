@@ -1,0 +1,8 @@
+[server]
+listen_address = "0.0.0.0:9898"
+mode = "flood"
+
+[flood]
+target_address = "127.0.0.1:9899"
+packet_size = 5120
+fill_byte = 0xFF
